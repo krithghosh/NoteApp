@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:text="Bangalore"
+        android:textColor="@color/lightBlack"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:text="Hello bangalore, What are you upto ?"
+        android:textColor="@color/mediumGrey"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:text="3rd August, 2016 07:30 pm"
+        android:textColor="@color/lightGrey"
+        android:textSize="12dp"
+        android:textStyle="" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/date"
+        android:layout_marginTop="10dp"
+        android:background="@color/lightestGrey" />
+</RelativeLayout>

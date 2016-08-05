@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_note__edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="76dp"
+    android:background="#F5F5F5"
+    android:fitsSystemWindows="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.krith.treebotestapp.Note_Edit"
+    tools:showIn="@layout/activity_note__edit">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/textbox_selector"
+        android:hint="Title"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="#424242"
+        android:textColorHint="#BDBDBD"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/textbox_selector"
+        android:gravity="left|top"
+        android:hint="Write a note"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:textColor="#424242"
+        android:textColorHint="#BDBDBD"
+        android:textSize="16dp"
+        android:verticalScrollbarPosition="right" />
+</RelativeLayout>
